@@ -23,6 +23,7 @@ nav_order: 5
 - RPKI Client [homepage](https://www.rpki-client.org/)
 - Routinator [docs](https://routinator.docs.nlnetlabs.nl/en/stable/installation.html)
 - Impact research by virtu [pdf](https://github.com/virtu/talks/blob/master/2023-03-02-advancing-bitcoin/slides.pdf) (Advancing Bitcoin 2023)
+- Addrman and Eclipse Attacks [documentation](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/Addrman-and-eclipse-attacks) in Bitcoin DevWiki
 - "What can be learned from recent BGP hijacks targeting cryptocurrency services?" [article](https://www.kentik.com/blog/bgp-hijacks-targeting-cryptocurrency-services/)
 - "IRR Hygiene in the RPKI Era" APNIC [article](https://blog.apnic.net/2022/04/07/irr-hygiene-in-the-rpki-era/)
 - "RPKI’s 2022 year in review — growth and innovation" APNIC [article](https://blog.apnic.net/2023/01/18/rpkis-2022-year-in-review-growth-and-innovation/)
