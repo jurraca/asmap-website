@@ -40,11 +40,7 @@ Similarly, the `getrawaddrman` RPC command's response will include `source_mappe
 
 #### Inspecting assignment changes between two ASmaps
 
-The `contrib/asmap-tool.py` script provides a `diff-addrs` command to show changes in AS mappings between two ASmaps. The output will show the peer IP addresses, and their new status: assigned (or reassigned) from previous AS to the new AS. It takes a set of peers in the format of the `getnodeaddresses` RPC, and two different ASmaps to measure changes as arguments:
-```
-$ contrib/asmap/asmap-tool.py diff-addrs <asmap-1> <asmap-2> <(bitcoin-cli getnodeaddresses 0)
-```
-This allows a node operator to see the changes that a known IP address's AS assignment underwent in a given timespan, defined by the times at which the ASmaps was generated. If an `unassigned` value is returned as either the original or latest AS assignment, it means that the ASmap provided did not have a mapping for the IP address given.
+The `contrib/asmap-tool.py` script provides the `diff` and `diff-addrs` command to show changes in AS mappings between two ASmaps. See the Bitcoin Core [documentation](https://github.com/bitcoin/bitcoin/tree/master/contrib/asmap/README.md) for usage.
 
 ## TODO
 
@@ -57,7 +53,7 @@ Changes required to Bitcoin Core are fairly minimal, with the goal of tool conso
 Aside from the code changes mentioned above, a process needs to be defined regarding how the data embedded with Bitcoin Core is created. Based on a previous proposal and some previous feedback the current proposal for this is as follows:
 
 - A repository for management of ASMap data is created under the bitcoin core org (see [asmap/asmap-data](https://github.com/bitcoin/bitcoin/issues/28794) for an example of how this might look in practice).
-- Any contributor can open issues to coordinate the collaborative creation of a new ASMap file (see coordinated launch in Kartograf, and a [the example in asmap/asmap-data](https://github.com/asmap/asmap-data/issues/4)). If multiple collaborators have created a result file with the same hash, this improves trust in the validity of input data and the final result. Effectively the trust in the input data is federated.
+- Any contributor can open issues to coordinate the collaborative creation of a new ASMap file (see coordinated launch in Kartograf, and an [example in asmap/asmap-data](https://github.com/asmap/asmap-data/issues/22)). If multiple collaborators have created a result file with the same hash, this improves trust in the validity of input data and the final result. Effectively the trust in the input data is federated.
 - Independent of a previous collaboration, any user can open PRs to the repository, adding the raw input data as well as the final result to the repository. Reviewers can reproduce the final result from the raw input files and confirm that the raw input file was not manipulated. Reviewers may prefer files that were previously created by multiple collaborators.
 - Any user that would like to run their node with a fresh ASMap file can now turn to the asmap-data repository in the bitcoin core org and download the latest ASMap file available.
 - As a new Bitcoin Core release nears, any contributor can take any of the files from the asmap-data repository and open a PR to Bitcoin Core with this file to suggest it be the file that is embedded in the final release. It will be up to reviewers to decide if the particular file is good enough or if a different one is preferred.

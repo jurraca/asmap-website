@@ -12,7 +12,7 @@ _The following is introductory information on Autonomous Systems (AS) and BGP, a
 
 The allocation of IP address space on the Internet begins with the Internet Assigned Numbers Authority (IANA), which allocates IP address ranges to a Regional Internet Registry (RIR). This RIR then assigns IP address ranges to an AS they control. They then announce to the world which AS controls which IP address range via the Border Gateway Protocol (BGP).
 
-Governments around the world have their own reserved ranges, as do Internet Service Providers (ISP) and some commercial entities. For example, Amazon has their own AS, as does Cloudflare, and therefore each has control over IP addresses in a given range. Cloudflare has a good explainer about AS and where they fit in the Internet’s architecture. Each AS is given a number to be identified by.
+Governments around the world have their own reserved ranges, as do Internet Service Providers (ISP) and some commercial entities. For example, Amazon has their own AS, as does Cloudflare, and therefore each has control over IP addresses in a given range. Cloudflare has a [good explainer](https://www.cloudflare.com/learning/network-layer/what-is-an-autonomous-system/) about AS and where they fit in the Internet’s architecture. Each AS is given a number to be identified by.
 
 ### The Problem
 

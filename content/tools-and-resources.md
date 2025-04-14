@@ -11,7 +11,7 @@ nav_order: 5
 - RPKI client [Nix flake](https://github.com/asmap/rpki-client-nix) - a Nix flake bundling the RPKI client
 - [kartograf](https://github.com/asmap/kartograf): fetch, parse, and merge data from various RIRs and produce an ASmap
 - [asmap-py](https://github.com/sipa/asmap/blob/nextgen/asmap.py): a Python script to compress an ASMap file
-- Bitcoin Core asmap [code](https://github.com/bitcoin/bitcoin/blob/master/contrib/seeds/asmap.py): the ASMap Core script code
+- Bitcoin Core asmap [code](https://github.com/bitcoin/bitcoin/tree/master/contrib/asmap): the ASMap Core script code
 - [asmap-rs](https://github.com/rrybarczyk/asmap-rs/tree/master): a Rust program to download and parse data from the RIPE NCC
 
 ## References
@@ -23,6 +23,7 @@ nav_order: 5
 - RPKI Client [homepage](https://www.rpki-client.org/)
 - Routinator [docs](https://routinator.docs.nlnetlabs.nl/en/stable/installation.html)
 - Impact research by virtu [pdf](https://github.com/virtu/talks/blob/master/2023-03-02-advancing-bitcoin/slides.pdf) (Advancing Bitcoin 2023)
+- Addrman and Eclipse Attacks [documentation](https://github.com/bitcoin-core/bitcoin-devwiki/wiki/Addrman-and-eclipse-attacks) in Bitcoin DevWiki
 - "What can be learned from recent BGP hijacks targeting cryptocurrency services?" [article](https://www.kentik.com/blog/bgp-hijacks-targeting-cryptocurrency-services/)
 - "IRR Hygiene in the RPKI Era" APNIC [article](https://blog.apnic.net/2022/04/07/irr-hygiene-in-the-rpki-era/)
 - "RPKI’s 2022 year in review — growth and innovation" APNIC [article](https://blog.apnic.net/2023/01/18/rpkis-2022-year-in-review-growth-and-innovation/)
