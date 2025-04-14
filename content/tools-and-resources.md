@@ -11,7 +11,7 @@ nav_order: 5
 - RPKI client [Nix flake](https://github.com/asmap/rpki-client-nix) - a Nix flake bundling the RPKI client
 - [kartograf](https://github.com/asmap/kartograf): fetch, parse, and merge data from various RIRs and produce an ASmap
 - [asmap-py](https://github.com/sipa/asmap/blob/nextgen/asmap.py): a Python script to compress an ASMap file
-- Bitcoin Core asmap [code](https://github.com/bitcoin/bitcoin/blob/master/contrib/seeds/asmap.py): the ASMap Core script code
+- Bitcoin Core asmap [code](https://github.com/bitcoin/bitcoin/tree/master/contrib/asmap): the ASMap Core script code
 - [asmap-rs](https://github.com/rrybarczyk/asmap-rs/tree/master): a Rust program to download and parse data from the RIPE NCC
 
 ## References
