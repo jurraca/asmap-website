@@ -40,7 +40,7 @@ Similarly, the `getrawaddrman` RPC command's response will include `source_mappe
 
 #### Inspecting assignment changes between two ASmaps
 
-The `contrib/asmap-tool.py` script provides the `diff` and `diff-addrs` command to show changes in AS mappings between two ASmaps. See the Core [documentation](https://github.com/bitcoin/bitcoin/tree/master/contrib/asmap) for usage.
+The `contrib/asmap-tool.py` script provides the `diff` and `diff-addrs` command to show changes in AS mappings between two ASmaps. See the Bitcoin Core [documentation](https://github.com/bitcoin/bitcoin/tree/master/contrib/asmap/README.md) for usage.
 
 ## TODO
 
