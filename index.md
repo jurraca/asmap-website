@@ -13,5 +13,5 @@ There exist several attacks which can leverage weaknesses in peer discovery to p
 
 Since [Core 20.0](https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-0.20.0.md#new-settings), users can pass their own ASmap file to Core. In order to generate such a map, however, we need to source the most complete and up-to-date set of IP-to-AS mappings. This website is intended to present the current state of research on sourcing this data, generating such mappings, and using them in Core.
 
-Generating the ASmap relies on data that must be sourced from best-effort public announcements in several places and parsed carefully to detect errors and misattributions. To learn more about the sourcing of this AS data, see [Sourcing Data](../data-sourcing.md).
+Generating the ASmap relies on data that must be sourced from best-effort public announcements in several places and parsed carefully to detect errors and misattributions. To learn more about the sourcing of this AS data, see [Sourcing Data](/content/data-sourcing.md).
 
