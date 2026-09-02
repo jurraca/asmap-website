@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Background
-permalink: /background/
+title: About
+permalink: /about/
 nav_order: 2
 ---
 
