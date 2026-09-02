@@ -7,6 +7,7 @@ nav_order: 5
 
 ## Tools
 
+- ASmap [Dashboard](https://dashboard.asmap.org/): analysis of the [asmap-data](https://github.com/bitcoin-core/asmap-data) ASmaps and their evolution over time.
 - [RPKI client](https://github.com/rpki-client/rpki-client-portable): validates BGP and ROA announcements
 - RPKI client [Nix flake](https://github.com/asmap/rpki-client-nix) - a Nix flake bundling the RPKI client
 - [kartograf](https://github.com/asmap/kartograf): fetch, parse, and merge data from various RIRs and produce an ASmap
